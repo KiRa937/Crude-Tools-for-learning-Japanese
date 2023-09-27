@@ -1,4 +1,4 @@
-# Crude-Tools-for-learning-Japanese
+# Crude Tools for learning Japanese
 Just a bunch of scripts I modified/wrote for myself. And I've decided to share them.
 
 ## animecards_v35_mod
@@ -8,13 +8,13 @@ New features:
 1) Script adds tag with the video file name
 2) Script can replace old Audio and image
 ### How to replace old Audio and image
-* To replace the Audio first add tag "ac-rep" to the note in question and make sure to either deselect it in Browse window or close the window completely.
-!!!ONLY ONE NOTE MUST HAVE THIS TAG!!!
+* Add tag "ac-rep" to the note in question. You can do it ether by using "Notes->Add Tags..." or right-clicking the note in the list on the left side of the Browse window. **!!!ONLY ONE NOTE MUST HAVE THIS TAG!!!**
+* Make sure to either deselect the note in Browse window or close the window completely.
 * Select all the subtitle lines you wish to add to the card like you usually do with the original script.
 * Ctrl + c
 * Tab back to MPV and Ctrl + r
 * Done. The lines, their respective Audio and the current paused image are replaced and the tag is deleted.
-* If taf is still ther that means the note was still selected in Browse window at the time.
+* If tag is still there that means the note was still selected in Browse window at the time.
 
 ## manga mokuro and manga mokuro - parent_dir
 A pair of BAT-files to use for launching [mokuro](https://github.com/kha-white/mokuro).
